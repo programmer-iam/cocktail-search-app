@@ -5,13 +5,11 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { SearchFormComponent } from './ui/search-form/search-form.component';
-import { HelloWorldComponent } from './ui/hello-world/hello-world.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SearchFormComponent,
-    HelloWorldComponent
+    SearchFormComponent
   ],
   imports: [
     BrowserModule,
